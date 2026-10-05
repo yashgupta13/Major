@@ -3,3 +3,12 @@ df_chexpert_plus_240401.csv
 # EDA/findings.csv
 # EDA/report.csv
 # EDA/impression.csv
+
+# Exclude datasets and large generated outputs
+impression.csv
+report.csv
+*.npy
+*.index
+PersonB/outputs/
+__pycache__/
+*.pyc
